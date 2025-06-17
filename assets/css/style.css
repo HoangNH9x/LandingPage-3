@@ -21,6 +21,10 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header */
 .header {
   min-height: 100vh;
@@ -28,7 +32,7 @@ body {
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   position: relative;
   font-size: 1rem;
 }
@@ -55,9 +59,19 @@ body {
   background: #ffffff;
 }
 .logo .logo__text {
-  color: #ffffff;
+  margin-left: 0.6em;
+  text-align: right;
+  line-height: 1.6em;
 }
 
 .logo__brand {
   display: block;
+  font-size: 1.8em;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.logo__brand--small {
+  font-size: 1.2em;
+  font-weight: 300;
 }
