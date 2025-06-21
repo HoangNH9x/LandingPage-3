@@ -12,7 +12,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "sora", sans-serif;
+  font-family: "Sora", sans-serif;
 }
 /* common */
 .container {
@@ -74,4 +74,27 @@ a {
 .logo__brand--small {
   font-size: 1.2em;
   font-weight: 300;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.navbar__link {
+  padding: 4px 21px;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  color: #fff;
+}
+
+.navbar__item--active {
+  text-shadow: 1px 0 0 currentColor;
+  color: #fff;
 }
