@@ -25,6 +25,29 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  --height: 60px;
+  display: inline-block;
+  min-width: 205px;
+  color: #fff;
+  background: #2e80ce;
+  border-radius: 30px;
+  border: 1px solid #2e80ce;
+  text-align: center;
+  font-family: "Sora", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  height: var(--height);
+  line-height: var(--height);
+  padding: 0 20px;
+  transition: ease-out 0.5s;
+}
+
+.btn:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
 /* Header */
 .header {
   min-height: 100vh;
@@ -36,6 +59,7 @@ a {
   display: inline-flex;
   position: relative;
   font-size: 1rem;
+  font-family: "Sora", sans-serif;
 }
 
 .logo__circle::before,
@@ -86,15 +110,19 @@ a {
 .navbar__list {
   display: flex;
 }
-
+.header-action__login,
 .navbar__link {
   padding: 4px 21px;
-  font-family: "Sora";
+  font-family: "Sora", sans-serif;
   font-size: 1.6em;
   font-weight: 300;
-  line-height: 28px; /* 175% */
   color: #c9d2da;
-  transition: all ease 0.2s;
+  transition: all ease 0.8s;
+}
+
+.header-action__login:hover {
+  text-shadow: 1px 0 0 currentColor;
+  color: #ffffff;
 }
 
 .navbar__item--active {
@@ -120,4 +148,72 @@ a {
   height: 6px;
   border-radius: 50%;
   background: #fff;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+}
+
+.header-action__login {
+  margin-right: 7px;
+}
+
+.header-action__signup {
+  --height: 44px;
+  min-width: 104px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  margin-top: 76px;
+}
+
+.hero__content {
+  flex-shrink: 0;
+  width: 44%;
+}
+
+.hero__media {
+  flex-grow: 1;
+}
+
+.hero__heading {
+  color: #fff;
+  font-family: "Sora";
+  font-size: 70px;
+  line-height: 1.14;
+  font-weight: 600;
+}
+
+.hero__desc {
+  margin-top: 22px;
+  color: #c9d2da;
+  font-family: "Sora";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.16;
+}
+
+.hero__row {
+  display: flex;
+  align-items: center;
+  margin-top: 38px;
+}
+
+.hero__phone {
+  margin-left: 38px;
+  color: #fff;
+  text-align: center;
+  font-family: "Sora";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.hero__images {
+  display: flex;
+  align-items: center;
 }
