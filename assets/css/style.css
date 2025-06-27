@@ -349,5 +349,135 @@ a {
 /* Work */
 .work {
   background: #f6fbff;
-  padding: 100px;
+  padding: 100px 0;
+}
+
+.work-section-heading {
+  color: #10375c;
+  font-family: "Sora";
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.work-section-desc {
+  margin-top: 18px;
+  width: 468px;
+  color: #575f66;
+  font-family: "Sora";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  margin-top: 70px;
+}
+
+.work-item {
+  padding: 44px;
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+
+.work-item:hover {
+  transform: translateY(-16px);
+  border-color: #2e80ce;
+}
+
+.work-item:hover .work-item__more {
+  color: #2e80ce;
+}
+
+.work-item__heading {
+  color: #10375c;
+  font-family: "Sora";
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.work-item__desc {
+  margin-top: 28px;
+  color: #575f66;
+  font-family: "Sora";
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.work-item__more {
+  display: inline-block;
+  margin-top: 18px;
+  color: #575f66;
+  font-family: "Sora";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75;
+  transition: 0.25s;
+}
+
+/* feature */
+.feature {
+  margin-top: 85px;
+  padding: 85px 0;
+}
+
+.feature__inner {
+  display: flex;
+  align-items: center;
+  column-gap: 130px;
+}
+
+.feature__media {
+  width: 48%;
+}
+
+.feature__images {
+  position: relative;
+  padding: 0 58px 121px 0;
+}
+
+.feature__img {
+  width: 512px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.feature__img:last-child {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 332px;
+  height: 370px;
+}
+
+.section-feature-heading {
+  width: 470px;
+  color: #10375c;
+  font-family: "Sora";
+  font-size: 2.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.section-feature-desc {
+  margin-top: 18px;
+  color: #575f66;
+  font-family: "Sora";
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.66;
+}
+
+.feature__cta {
+  margin-top: 38px;
 }
