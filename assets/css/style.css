@@ -571,3 +571,66 @@ a {
 .member__control-next-icon {
   rotate: 180deg;
 }
+
+/* Install */
+.install {
+  margin-top: 180px;
+}
+
+.install__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+
+.install__img {
+  display: block;
+  margin-top: -95px;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install-section-heading,
+.install-section-desc {
+  color: #fff;
+}
+
+.install-section-heading {
+  width: 460px;
+  font-family: "Sora";
+  font-size: 2.9rem;
+  font-weight: 600;
+  line-height: 1.28;
+  letter-spacing: -1px;
+}
+
+.install-section-desc {
+  margin: 18px 0px 38px 0px;
+  width: 586px;
+  font-family: "Sora";
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+.install__row {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 38px;
+}
+
+.install__btn-img {
+  transition: 0.4s;
+}
+
+.install__btn-img:hover {
+  transform: translateY(-8px);
+}
