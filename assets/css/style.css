@@ -4,6 +4,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -828,7 +829,6 @@ button {
 
 /* Footer */
 .footer {
-  margin-bottom: 500px;
   padding: 100px 0;
   background: #10375c;
   font-family: " Open Sans", sans-serif;
