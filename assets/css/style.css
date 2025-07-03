@@ -820,7 +820,6 @@ a {
 
 /* Footer */
 .footer {
-  margin-bottom: 500px;
   padding: 100px 0;
   background: #10375c;
   font-family: " Open Sans", sans-serif;
@@ -872,7 +871,7 @@ a {
 
 .footer__social {
   display: flex;
-  column-gap: 25px;
+  column-gap: 30px;
   margin-bottom: 28px;
 }
 
